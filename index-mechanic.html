@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="no-js lt-ie10 lt-ie9 lt-ie8 lt-ie7 "> <![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie10 lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie10 lt-ie9"> <![endif]-->
+<!--[if IE 9]><html class="no-js lt-ie10"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+
+    <!-- Basic Page Needs -->
+    <meta charset="utf-8">
+    <title>Ajedrez IESTABLERO</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Mobile Specific Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="content/mechanic/images/favicon.ico">
+
+    <!-- FONTS -->
+    <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Roboto:100,300,400,400italic,700'>
+    <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Patua+One:100,300,400,400italic,700'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+        integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+        crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/js/all.min.js"
+        integrity="sha512-YSdqvJoZr83hj76AIVdOcvLWYMWzy6sJyIMic2aQz5kh2bPTd9dzY3NtdeEAzPp/PhgZqr4aJObB3ym/vsItMg=="
+        crossorigin="anonymous"></script>
+    <!-- CSS -->
+    <link rel='stylesheet' href='css/global.css'>
+    <link rel='stylesheet' href='content/mechanic/css/structure.css'>
+    <link rel='stylesheet' href='content/mechanic/css/mechanic.css'>
+    <link rel='stylesheet' href='content/mechanic/css/custom.css'>
+
+    <!-- Revolution Slider -->
+    <link rel="stylesheet" href="plugins/rs-plugin/css/settings.css">
+
+</head>
+
+<body
+    class="template-slider color-yellow layout-full-width header-modern sticky-header sticky-white subheader-title-left">
+    <!-- Main Theme Wrapper -->
+    <div id="Wrapper">
+        <!-- Header Wrapper -->
+        <div id="Header_wrapper" class="bg-parallax" data-stellar-background-ratio="0.5">
+            <!-- Header -->
+            <header id="Header">
+                <!-- Header Top -  Info Area -->
+                <div id="Action_bar">
+                    <div class="container">
+                        <div class="column one">
+                            <!-- Header - contact info area-->
+                            <ul class="contact_details"></ul>
+                            <!--Social info area-->
+                            <ul class="social"></ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- Header -  Logo and Menu area -->
+                <div id="Top_bar">
+                    <div class="container">
+                        <div class="column one">
+                            <div class="top_bar_left clearfix">
+                                <!-- Logo-->
+                                <div class="logo">
+                                    <h1><a id="logo" href="index-mechanic.html" title=""><img class="scale-with-grid"
+                                                src="forma-de-cabeza-de-caballo-negro-de-una-pieza-de-ajedrez.png"
+                                                alt="BeMechanic - BeTheme" /></a></h1>
+                                </div>
+                                <!-- Main menu-->
+                                <div class="menu_wrapper">
+                                    <nav id="menu">
+                                        <ul id="menu-main-menu" class="menu">
+                                            <li class="current_page_item">
+                                                <a href="index-mechanic.html"><span>Inicio</span></a>
+                                            </li>
+                                            <li>
+                                                <a href="content/mechanic/about-us.html"><span>Configura tu
+                                                        tablero</span></a>
+                                            </li>
+                                            
+                                            <li>
+                                                <a href="content/mechanic/clients.html"><span>Movimientos</span></a>
+                                            </li>
+                                            <li>
+                                                <a href="content/mechanic/contact-us.html"><span>Contacto</span></a>
+                                            </li>
+                                            <li>
+                                                <a href="content/mechanic/minijuego.html"><span>Minijuego</span></a>
+                                            </li>
+                                        </ul>
+                                    </nav><a class="responsive-menu-toggle" href="#"><i class="icon-menu"></i></a>
+                                </div>
+                                <!-- Header Searchform area-->
+                                <!--        <div class="search_wrapper">
+                                    <form method="get" id="searchform" action="#">
+                                        <i class="icon_search icon-search"></i><a href="#" class="icon_close"><i class="icon-cancel"></i></a>
+                                        <input type="text" class="field" name="s" id="s" placeholder="Enter your search" />
+                                        <input type="submit" class="submit flv_disp_none" value="" />
+                                    </form>
+                                </div> -->
+                            </div>
+                            <div class="top_bar_right">
+                                <div class="top_bar_right_wrapper">
+                                    <a id="search_button" href="https://twitter.com/hashtag/IESTablero?src=hashtag_click" target="_blank"><i
+                                            class="fab fa-twitter"></i></a>
+                                    <a id="search_button" href="https://www.facebook.com/people/IES-El-Tablero/100063569645527/"><i
+                                            class="fab fa-facebook"></i></a>
+                                    <a id="search_button" href="https://www.linkedin.com/company/3077340/"><i
+                                            class="fab fa-linkedin"></i></a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Revolution slider area-->
+                <div class="mfn-main-slider">
+                    <div id="rev_slider_1_2_wrapper" class="rev_slider_wrapper fullwidthbanner-container"
+                        style="margin:0px auto;padding:0px;margin-top:0px;margin-bottom:0px;max-height:750px;">
+                        <div id="rev_slider_1_2" class="rev_slider fullwidthabanner"
+                            style="display:none;max-height:750px;height:750px;">
+                            <ul>
+                                <li data-transition="fade" data-slotamount="7" data-masterspeed="300"
+                                    data-saveperformance="off">
+                                    <img src="content/mechanic/images/ajedrezfondo.jpeg" alt=""
+                                        data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+                                    <div class="tp-caption mfnrs_mechanic lft tp-resizeme" data-x="center"
+                                        data-hoffset="-293" data-y="center" data-voffset="-39" data-speed="800"
+                                        data-start="500" data-easing="Power3.easeInOut" data-splitin="none"
+                                        data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1"
+                                        data-endspeed="300"
+                                        style=" margin-left:250px !important; z-index: 5; max-width: auto; max-height: auto; white-space: nowrap;">
+                                        <span class="themecolor"></span>
+                                    </div>
+                                    <div class="tp-caption mfnrs_mechanic_small sfl tp-resizeme" data-x="center"
+                                        data-hoffset="-343" data-y="center" data-voffset="37" data-speed="800"
+                                        data-start="800" data-easing="Power3.easeInOut" data-splitin="none"
+                                        data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1"
+                                        data-endspeed="300"
+                                        style="z-index: 6; max-width: auto; max-height: auto; white-space: nowrap;">
+
+                                        <br>
+                                    </div>
+
+                                </li>
+
+                            </ul>
+                            <div class="tp-bannertimer tp-bottom flv_viz_hid"></div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+        </div>
+        <!-- Main Content -->
+        <div id="Content">
+            <div class="content_wrapper clearfix">
+                <div class="sections_group">
+                    <div class="entry-content">
+                        <div class="section dark "
+                            style="padding-top:50px; padding-bottom:20px; background-color:#262626">
+                            <div class="section_wrapper clearfix">
+                                <div class="items_group clearfix">
+                                    <!-- Page Title-->
+                                    <!-- One full width row-->
+                                    <div class="column one column_fancy_heading">
+                                        <div class="fancy_heading fancy_heading_icon">
+                                            <h2 class="title">APRENDE A JUGAR</h2>
+                                        </div>
+                                    </div>
+                                    <!-- One Third (1/3) Column -->
+                                    <div class="column one-third column_list">
+                                        <div class="list_item lists_1 clearfix">
+                                            <!-- Animated area -->
+                                            <div class="animate" data-anim-type="zoomInLeft">
+                                                <div class="list_left list_icon">
+                                                    <i class="far fa-check-circle"></i>
+                                                </div>
+                                                <div class="list_right">
+                                                    <h4>MOVIMIENTOS</h4>
+                                                    <div class="desc">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- One Third (1/3) Column -->
+                                    <div class="column one-third column_list">
+                                        <div class="list_item lists_1 clearfix">
+                                            <!-- Animated area -->
+                                            <div class="animate" data-anim-type="zoomIn">
+                                                <div class="list_left list_icon">
+                                                    <i class="fas fa-comments"></i>
+                                                </div>
+                                                <div class="list_right">
+                                                    <h4>LAS MEJORES EXPLICACIONES </h4>
+                                                    <div class="desc">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- One Third (1/3) Column -->
+                                    <div class="column one-third column_list">
+                                        <div class="list_item lists_1 clearfix">
+                                            <!-- Animated area -->
+                                            <div class="animate" data-anim-type="zoomInRight">
+                                                <div class="list_left list_icon">
+                                                    <i class="fas fa-sort-amount-down"></i>
+                                                </div>
+                                                <div class="list_right">
+                                                    <h4>AMPLIA GAMA DE EXPLICACIONES </h4>
+                                                    <div class="desc">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Page devider -->
+                                    <!-- One full width row-->
+                                    <div class="column one column_divider">
+                                        <hr class="no_line" />
+                                    </div>
+                                    <!-- One Third (1/3) Column -->
+                                    <div class="column one-third column_list">
+                                        <div class="list_item lists_1 clearfix">
+                                            <!-- Animated area -->
+                                            <div class="animate" data-anim-type="zoomInLeft">
+                                                <div class="list_left list_icon">
+                                                    <i class="fas fa-users"></i>
+                                                </div>
+                                                <div class="list_right">
+                                                    <h4>MINIJUEGO PERSONALIZADO </h4>
+                                                    <div class="desc">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- One Third (1/3) Column -->
+                                    <div class="column one-third column_list">
+                                        <div class="list_item lists_1 clearfix">
+                                            <!-- Animated area -->
+                                            <div class="animate" data-anim-type="zoomIn">
+                                                <div class="list_left list_icon">
+                                                    <i class="fas fa-dollar-sign"></i>
+                                                </div>
+                                                <div class="list_right">
+                                                    <h4>TOTALMENTE GRATIS </h4>
+                                                    <div class="desc">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- One Third (1/3) Column -->
+                                    <div class="column one-third column_list">
+                                        <div class="list_item lists_1 clearfix">
+                                            <!-- Animated area -->
+                                            <div class="animate" data-anim-type="zoomInRight">
+                                                <div class="list_left list_icon">
+                                                    <i class="fas fa-cog"></i>
+                                                </div>
+                                                <div class="list_right">
+                                                    <h4>CONFIGURA EL TABLERO </h4>
+                                                    <div class="desc">
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="section full-width dark "
+                            style="padding-top:30px; padding-bottom:20px; background-color:#454545">
+                            <div class="section_wrapper clearfix">
+                                <div class="items_group clearfix">
+                                    <!-- Page Title-->
+                                    <!-- One full width row-->
+                                    <div class="column one column_fancy_heading">
+                                        <div class="fancy_heading fancy_heading_icon">
+                                            <!-- Animated area -->
+                                            <div class="animate" data-anim-type="bounceInLeft">
+                                                <h2 class="title">SIGUE NUESTROS PASOS</h2>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="section full-width "
+                            style="padding-top:0px; padding-bottom:0px; background-color:#454545">
+                            <div class="section_wrapper clearfix">
+                                <div class="items_group clearfix">
+                                    <!-- One full width row-->
+                                    <div class="column one column_portfolio_slider">
+                                        <div class="portfolio_slider ">
+                                            <a class="slider_nav slider_prev themebg" href="#"><i
+                                                    class="icon-left-open-big"></i></a><a
+                                                class="slider_nav slider_next themebg" href="#"><i
+                                                    class="icon-right-open-big"></i></a>
+                                            <ul class="portfolio_slider_ul">
+                                                <li>
+                                                    <div class="image_frame scale-with-grid">
+
+                                                        <div class="image_wrapper">
+                                                            <a href="#">
+                                                                <div class="mask"></div><img width="640" height="500"
+                                                                    src="content/mechanic/images/conf.jpeg"
+                                                                    class="scale-with-grid wp-post-image"
+                                                                    alt="mechanic_blog_1" /> 
+
+                                                            </a>
+                                                            <div class="image_links double">
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="image_frame scale-with-grid">
+                                                        <div class="image_wrapper">
+                                                            <a href="#">
+                                                                <div class="mask"></div><img width="640" height="500"
+                                                                    src="content/mechanic/images/mechanic_blog_2-640x500.jpg"
+                                                                    class="scale-with-grid wp-post-image"
+                                                                    alt="mechanic_blog_2" />
+                                                            </a>
+                                                            <div class="image_links double">
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="image_frame scale-with-grid">
+                                                        <div class="image_wrapper">
+                                                            <a href="#">
+                                                                <div class="mask"></div><img width="640" height="500"
+                                                                    src="content/mechanic/images/mechanic_blog_3-640x500.jpg"
+                                                                    class="scale-with-grid wp-post-image"
+                                                                    alt="mechanic_blog_3" />
+                                                            </a>
+                                                            <div class="image_links double">
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="image_frame scale-with-grid">
+                                                        <div class="image_wrapper">
+                                                            <a href="#">
+                                                                <div class="mask"></div><img width="640" height="500"
+                                                                    src="content/mechanic/images/mechanic_blog_4-640x500.jpg"
+                                                                    class="scale-with-grid wp-post-image"
+                                                                    alt="mechanic_blog_4" />
+                                                            </a>
+                                                            <div class="image_links double">
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="image_frame scale-with-grid">
+                                                        <div class="image_wrapper">
+                                                            <a href="#">
+                                                                <div class="mask"></div><img width="640" height="500"
+                                                                    src="content/mechanic/images/mechanic_blog_5-640x500.jpg"
+                                                                    class="scale-with-grid wp-post-image"
+                                                                    alt="mechanic_blog_5" />
+                                                            </a>
+                                                            <div class="image_links double">
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="section" style="padding-top:60px; padding-bottom:10px; background-color:#b2b2b2">
+                            <div class="section_wrapper clearfix">
+                                <div class="items_group clearfix">
+                                    <!-- One Fourth (1/4) Column -->
+                                    <div class="column one-fourth column_column">
+                                        <div class="column_attr animate" data-anim-type="zoomIn">
+                                           
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- One Fourth (1/4) Column -->
+                                    <div class="column one-fourth column_column">
+                                        <div class="column_attr animate" data-anim-type="zoomIn">
+                                            <h2>Sobre Nosotros</h2>
+
+                                            <div class="big">
+                                                <p>
+                                                    La zona de influencia del centro se encuentra en seis zonas urbanísticas de la ciudad (Brillante, Camping,
+                                                    Naranjo, Santa Rosa, Valdeolleros y Moreras) además del elevado número de alumnos proveniente de otras
+                                                    poblaciones y que cursan ciclos formativos, dándole una peculiar y heterogénea configuración en la que se
+                                                    perfilan como necesarias para trabajar entre el alumnado y las familias estrategias basadas en la información y
+                                                    la comunicación que potencien la apertura, el conocimiento, el respeto, y la colaboración y que impulsen una
+                                                    convivencia armónica, pacífica y enriquecedora de los unos para con los otros.
+                                                </p>
+                                            </div>
+                                           
+                                         
+                                        </div>
+                                    </div>
+                                    <!-- One Second (1/2) Column -->
+                                    <div class="column one-second column_map">
+
+                                        <!-- Google map area -->
+                                        <div class="google-map-wrapper no_border">
+                                            <div class="google-map" 
+                                                style="width:100%; height:260px;">
+                                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3148.406110293049!2d-4.790056384180879!3d37.89756931285695!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6cdf6bda7a3439%3A0xb965dfb8cc004518!2sIES%20El%20Tablero!5e0!3m2!1ses!2ses!4v1667413780269!5m2!1ses!2ses" width="600" height="450" style="border:0; width: 100%;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                                                &nbsp;
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer-->
+        <footer id="Footer" class="clearfix">
+            <!-- Footer copyright-->
+            <div class="footer_copy">
+                <div class="container">
+                    <div class="column one">
+                        <a id="back_to_top" href="#" class="button button_left button_js"><span class="button_icon"><i
+                                    class="icon-up-open-big"></i></span></a>
+                        <div class="copyright">
+                            &copy; 2022 IES TABLERO All Rights Reserved.
+                        </div>
+                        <!--Social info area-->
+                        <ul class="social"></ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- JS -->
+    <script src="js/jquery-2.1.4.min.js"></script>
+
+    <script src="js/mfn.menu.js"></script>
+    <script src="js/jquery.plugins.js"></script>
+    <script src="js/jquery.jplayer.min.js"></script>
+    <script src="js/animations/animations.js"></script>
+    <script src="js/scripts.js"></script>
+
+    <script src="plugins/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
+    <script src="plugins/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+    <script src="plugins/rs-plugin/js/extensions/revolution.extension.video.min.js"></script>
+    <script src="plugins/rs-plugin/js/extensions/revolution.extension.slideanims.min.js"></script>
+    <script src="plugins/rs-plugin/js/extensions/revolution.extension.actions.min.js"></script>
+    <script src="plugins/rs-plugin/js/extensions/revolution.extension.layeranimation.min.js"></script>
+    <script src="plugins/rs-plugin/js/extensions/revolution.extension.kenburn.min.js"></script>
+    <script src="plugins/rs-plugin/js/extensions/revolution.extension.navigation.min.js"></script>
+    <script src="plugins/rs-plugin/js/extensions/revolution.extension.migration.min.js"></script>
+    <script src="plugins/rs-plugin/js/extensions/revolution.extension.parallax.min.js"></script>
+
+    <script src="http://maps.google.com/maps/api/js?sensor=false&ver=5.9"></script>
+
+    <script>
+        var tpj = jQuery;
+        tpj.noConflict();
+        var revapi1;
+        tpj(document).ready(function () {
+            if (tpj('#rev_slider_1_2').revolution == undefined) {
+                revslider_showDoubleJqueryError('#rev_slider_1_2');
+            } else {
+                revapi1 = tpj('#rev_slider_1_2').show().revolution({
+                    dottedOverlay: "none",
+                    delay: 9000,
+                    startwidth: 1180,
+                    startheight: 750,
+                    hideThumbs: 200,
+                    thumbWidth: 100,
+                    thumbHeight: 50,
+                    thumbAmount: 1,
+                    simplifyAll: "off",
+                    navigationType: "none",
+                    navigationArrows: "none",
+                    navigationStyle: "round",
+                    touchenabled: "on",
+                    onHoverStop: "on",
+                    nextSlideOnWindowFocus: "off",
+                    swipe_threshold: 0.7,
+                    swipe_min_touches: 1,
+                    drag_block_vertical: false,
+                    keyboardNavigation: "off",
+                    navigationHAlign: "center",
+                    navigationVAlign: "bottom",
+                    navigationHOffset: 0,
+                    navigationVOffset: 20,
+                    soloArrowLeftHalign: "left",
+                    soloArrowLeftValign: "center",
+                    soloArrowLeftHOffset: 20,
+                    soloArrowLeftVOffset: 0,
+                    soloArrowRightHalign: "right",
+                    soloArrowRightValign: "center",
+                    soloArrowRightHOffset: 20,
+                    soloArrowRightVOffset: 0,
+                    shadow: 0,
+                    fullWidth: "on",
+                    fullScreen: "off",
+                    spinner: "spinner3",
+                    stopLoop: "off",
+                    stopAfterLoops: 0,
+                    stopAtSlide: 1,
+                    shuffle: "off",
+                    autoHeight: "off",
+                    forceFullWidth: "off",
+                    hideTimerBar: "on",
+                    hideThumbsOnMobile: "off",
+                    hideNavDelayOnMobile: 1500,
+                    hideBulletsOnMobile: "off",
+                    hideArrowsOnMobile: "off",
+                    hideThumbsUnderResolution: 0,
+                    hideSliderAtLimit: 0,
+                    hideCaptionAtLimit: 0,
+                    hideAllCaptionAtLilmit: 0,
+                    startWithSlide: 0
+                });
+            }
+        });
+        /*]]>*/
+    </script>
+
+    <script>
+        function google_maps_5520355d025ce() {
+            var latlng = new google.maps.LatLng(-37.706034, 144.883724);
+            var myOptions = {
+                zoom: 15,
+                center: latlng,
+                mapTypeId: google.maps.MapTypeId.ROADMAP,
+                styles: [{
+                    "featureType": "administrative",
+                    "elementType": "labels.text.fill",
+                    "stylers": [{
+                        "color": "#444444"
+                    }]
+                }, {
+                    "featureType": "landscape",
+                    "elementType": "all",
+                    "stylers": [{
+                        "color": "#f2f2f2"
+                    }]
+                }, {
+                    "featureType": "poi",
+                    "elementType": "all",
+                    "stylers": [{
+                        "visibility": "off"
+                    }]
+                }, {
+                    "featureType": "road",
+                    "elementType": "all",
+                    "stylers": [{
+                        "saturation": -100
+                    }, {
+                        "lightness": 45
+                    }]
+                }, {
+                    "featureType": "road.highway",
+                    "elementType": "all",
+                    "stylers": [{
+                        "visibility": "simplified"
+                    }]
+                }, {
+                    "featureType": "road.arterial",
+                    "elementType": "labels.icon",
+                    "stylers": [{
+                        "visibility": "off"
+                    }]
+                }, {
+                    "featureType": "transit",
+                    "elementType": "all",
+                    "stylers": [{
+                        "visibility": "off"
+                    }]
+                }, {
+                    "featureType": "water",
+                    "elementType": "all",
+                    "stylers": [{
+                        "color": "#cdd2d4"
+                    }, {
+                        "visibility": "on"
+                    }]
+                }],
+                zoomControl: true,
+                mapTypeControl: false,
+                streetViewControl: false,
+                scrollwheel: false
+            };
+            var map = new google.maps.Map(document.getElementById("google-map-area-5520355d025ce"), myOptions);
+            var marker = new google.maps.Marker({
+                position: latlng,
+                icon: "content/mechanic/images/home_mechanic_pin.png",
+                map: map
+            });
+        }
+
+
+        jQuery(document).ready(function ($) {
+            google_maps_5520355d025ce();
+        });
+    </script>
+
+    <script>
+        jQuery(window).load(function () {
+            var retina = window.devicePixelRatio > 1 ? true : false;
+            if (retina) {
+                var retinaEl = jQuery("#logo img");
+                var retinaLogoW = retinaEl.width();
+                var retinaLogoH = retinaEl.height();
+                retinaEl.attr("src", "forma-de-cabeza-de-caballo-negro-de-una-pieza-de-ajedrez.png").width(retinaLogoW)
+                    .height(retinaLogoH)
+            }
+        });
+    </script>
+
+</body>
+
+</html>
